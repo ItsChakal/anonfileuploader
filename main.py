@@ -33,7 +33,7 @@ def main():
             url = x["data"]["file"]["url"]["short"]
             print(Fore.LIGHTRED_EX + "File uploaded : " + url)
             print()
-            restart = input(Fore.MAGENTA + """Reupload an another file ?
+            restart = input(Fore.MAGENTA + """Upload an another file ?
 [y/n] : """)
             if restart == "y":
                 main()
