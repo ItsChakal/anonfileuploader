@@ -41,7 +41,6 @@ def main():
                 quit()
         except Exception as e:
             print(e)
-            # can't get download link.
     
     except Exception as e:
         print(e)
